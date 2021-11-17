@@ -21,10 +21,11 @@
 
 - 빌드 세팅
 필요 모듈 설치 
-<code>
-    cd vscode-extension  
-    yarn install
-</code>
+
+```
+cd vscode-extension
+yarn install
+```
 
 1. src/extension.ts 를 열고 F5 누르면 확장 프로그램 빌드 시작
 2. 빌드 후에 디버깅 모드로 들어가는데, 새로 뜬 창에 C++ 코드 입력 후 우클릭 -> Judge 클릭
